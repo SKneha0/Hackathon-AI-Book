@@ -1,55 +1,62 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: Initial creation (no old version) -> 1.0.0
+- List of modified principles: None (initial creation).
+- Added sections: "Standards & Constraints", "Success Criteria".
+- Removed sections: None (initial creation).
+- Templates requiring updates:
+    - .specify/templates/plan-template.md: ? pending
+    - .specify/templates/spec-template.md: ? updated
+    - .specify/templates/tasks-template.md: ? updated
+    - .gemini/commands/sp.adr.toml: ? updated
+    - .gemini/commands/sp.analyze.toml: ? updated
+    - .gemini/commands/sp.checklist.toml: ? updated
+    - .gemini/commands/sp.clarify.toml: ? updated
+    - .gemini/commands/sp.constitution.toml: ? updated
+    - .gemini/commands/sp.git.commit_pr.toml: ? updated
+    - .gemini/commands/sp.implement.toml: ? updated
+    - .gemini/commands/sp.phr.toml: ? updated
+    - .gemini/commands/sp.plan.toml: ? updated
+    - .gemini/commands/sp.specify.toml: ? updated
+- Follow-up TODOs:
+    - TODO(PLAN_TEMPLATE): Manually update the "Constitution Check" section in .specify/templates/plan-template.md to reflect the newly defined principles, standards, and constraints.
+-->
+# AI-Native Textbook on Physical AI & Humanoid Robotics (2 Chapters) Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Accuracy
+All technical content verified against ROS 2, Gazebo, NVIDIA Isaac documentation.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Clarity
+Written for computer science/robotics students.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Reproducibility
+Instructions must be clear to replicate simulations.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Simplicity
+Only 2 chapters for concise learning.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+## Standards & Constraints
 
-### [PRINCIPLE_6_NAME]
+*   **Citation style:** APA (where references needed)
+*   **No plagiarism**
+*   **Clear headings, code snippets if needed**
+*   **Markdown format** suitable for Docusaurus
+*   **Chapter Limit:** 2 Chapters only
+*   **Word Count:** Each chapter: 1500�2500 words
+*   **Illustrations:** Include illustrations/diagrams placeholders (Markdown links)
+*   **Implementation:** No front-end or backend implementation required
 
+## Success Criteria
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+*   Student can understand Physical AI principles and humanoid robotics basics
+*   Student can setup ROS 2 and simulate a simple humanoid robot
+*   Book ready to deploy on Docusaurus GitHub Pages
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other project practices. Amendments require documented rationale, explicit approval, and a clear migration plan. All Pull Requests and reviews must verify compliance with these principles. Complexity must always be justified. For runtime development guidance, refer to project-specific documentation.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
+

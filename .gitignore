@@ -1,0 +1,18 @@
+# General
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Docusaurus
+build/
+.docusaurus/
+node_modules/
+
+# Python (if any scripts are added later)
+__pycache__/
+*.pyc
+.venv/
+venv/
