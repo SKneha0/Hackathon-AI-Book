@@ -1,0 +1,123 @@
+/* Typography */
+h1, h2, h3 { font-family: 'Arial', sans-serif; }
+p { line-height: 1.6; font-size: 1.1rem; }
+
+/* Navbar */
+.navbar__title { font-weight: bold; }
+
+.navbar__brand img {
+  height: 45px;  /* Apni desired height set karo */
+  width: 50px; 
+    /* Width proportional rakhe */
+}
+
+/* Chatbot button */
+/* Chatbot container */
+.chatbot {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 350px;
+  max-height: 500px;
+  border: 3px solid #6a004c;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+  font-family: Arial, sans-serif;
+}
+
+/* Message area */
+.chatbot-messages {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+/* User vs Bot messages */
+.chatbot-user {
+  text-align: right;
+  background-color: #6a004c;
+  color: #fff;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 10px;
+}
+
+.chatbot-bot {
+  text-align: left;
+  background-color: #6a004c;
+  color: #ffffff;
+  padding: 6px 10px;
+  margin: 4px 0;
+  border-radius: 10px;
+}
+
+/* Input area */
+.chatbot-input-area {
+  display: flex;
+  border-top: 2px solid #dd7bce;
+}
+
+.chatbot-input-area input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 0 0 0 12px;
+  outline: none;
+}
+
+.chatbot-input-area button {
+  background-color: #6a004c;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.chatbot-input-area input{
+  background-color: #6a004c;
+  color: white;
+  cursor: not-allowed;
+}
+.homepage-blog {
+  padding: 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.blog-posts {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.blog-posts img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.blog-posts h3 {
+  margin: 0.5rem 0;
+}
+
+.blog-posts p {
+  font-size: 0.9rem;
+}
+
+.hero {
+  background-color: #282c34;
+  color: white;
+}
+
+.hero__title {
+  font-size: 3rem;
+}
+
+.hero__subtitle {
+  font-size: 1.4rem;
+  color: #ccc;
+}

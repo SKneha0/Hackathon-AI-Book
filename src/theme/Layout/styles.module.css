@@ -1,0 +1,35 @@
+/* Wrapper ke liye basic style */
+.wrapper_src_theme_Layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Floating chatbot container */
+.floatingChatbot {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999; /* Always on top */
+}
+
+/* Optional: Shadow aur transition effect */
+.floatingChatbot > * {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 12px;
+}
+.hero {
+  background-color: #282c34;
+  color: white;
+}
+
+.hero__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+

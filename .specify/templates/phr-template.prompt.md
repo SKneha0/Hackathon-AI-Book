@@ -1,45 +1,30 @@
 ---
 id: {{ID}}
-title: {{TITLE}}
-stage: {{STAGE}}
-date: {{DATE_ISO}}
-surface: {{SURFACE}}
-model: {{MODEL}}
-feature: {{FEATURE}}
-branch: {{BRANCH}}
-user: {{USER}}
-command: {{COMMAND}}
-labels: [{{LABELS}}]
+title: "{{TITLE}}"
+stage: "{{STAGE}}"
+date: "{{DATE_ISO}}"
+surface: "{{SURFACE}}"
+model: "{{MODEL}}"
+feature: "{{FEATURE}}"
+branch: "{{BRANCH}}"
+user: "{{USER}}"
+command: "{{COMMAND}}"
+labels: {{LABELS}}
 links:
-  spec: {{LINKS_SPEC}}
-  ticket: {{LINKS_TICKET}}
-  adr: {{LINKS_ADR}}
-  pr: {{LINKS_PR}}
-files:
+  spec: {{LINKS.SPEC}}
+  ticket: {{LINKS.TICKET}}
+  adr: {{LINKS.ADR}}
+  pr: {{LINKS.PR}}
+files_yaml: |
 {{FILES_YAML}}
-tests:
+tests_yaml: |
 {{TESTS_YAML}}
 ---
 
-## Prompt
+### PROMPT
 
 {{PROMPT_TEXT}}
 
-## Response snapshot
+### RESPONSE
 
 {{RESPONSE_TEXT}}
-
-## Outcome
-
-- ✅ Impact: {{OUTCOME_IMPACT}}
-- 🧪 Tests: {{TESTS_SUMMARY}}
-- 📁 Files: {{FILES_SUMMARY}}
-- 🔁 Next prompts: {{NEXT_PROMPTS}}
-- 🧠 Reflection: {{REFLECTION_NOTE}}
-
-## Evaluation notes (flywheel)
-
-- Failure modes observed: {{FAILURE_MODES}}
-- Graders run and results (PASS/FAIL): {{GRADER_RESULTS}}
-- Prompt variant (if applicable): {{PROMPT_VARIANT_ID}}
-- Next experiment (smallest change to try): {{NEXT_EXPERIMENT}}
