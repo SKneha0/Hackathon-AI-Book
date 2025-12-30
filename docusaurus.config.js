@@ -5,7 +5,7 @@ const config = {
   tagline: 'A Comprehensive Guide to Embodied Intelligence',
   favicon: 'img/favicon.ico',
   url: 'https://YourGitHubUser.github.io',
-  baseUrl: '/Hakathon-ai-book/',
+  baseUrl: '/',
   organizationName: 'YourGitHubUser',
   projectName: 'Hakathon-ai-book',
   onBrokenLinks: 'warn',
